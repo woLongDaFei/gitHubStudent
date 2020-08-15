@@ -26,7 +26,4 @@
     [self.view addSubview:view1];
 }
 
-git rm --cached 工程的名字.xcodeproj/project.xcworkspace/xcuserdata/你的用户名.xcuserdatad/UserInterfaceState.xcuserstate
-
-git commit -m "Removed file that shouldn't be tracked"
 @end
