@@ -21,6 +21,10 @@
     UIView *view = [[UIView alloc] init];
     [self.view addSubview:view];
     
+//    dev1
+    
+    UIView *view1 = [[UIView alloc] init];
+    [self.view addSubview:view1];
 }
 
 
