@@ -9,5 +9,8 @@
 #import "dev1.h"
 
 @implementation dev1
+- (void)dev1 {
+    
+}
 
 @end
