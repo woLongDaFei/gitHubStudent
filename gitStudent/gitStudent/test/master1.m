@@ -8,7 +8,7 @@
 
 #import "master1.h"
 
-@implementation master1
+@implementation master1 
 
 - (void)master11 {
     
