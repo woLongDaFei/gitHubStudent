@@ -10,4 +10,10 @@
 
 @implementation master3
 
+
+- (void)dev1 {
+//    dev1c创建试试会不会冲突
+}
+
+
 @end
