@@ -17,8 +17,8 @@
 		FD9D1AD424E6DA32007BE6AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD9D1AD324E6DA32007BE6AB /* main.m */; };
 		FD9D1ADE24E6DA32007BE6AB /* gitStudentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD9D1ADD24E6DA32007BE6AB /* gitStudentTests.m */; };
 		FD9D1AE924E6DA32007BE6AB /* gitStudentUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD9D1AE824E6DA32007BE6AB /* gitStudentUITests.m */; };
-		FD9D1AF924E827E9007BE6AB /* master1.m in Sources */ = {isa = PBXBuildFile; fileRef = FD9D1AF824E827E9007BE6AB /* master1.m */; };
 		FD9D1AFC24E82813007BE6AB /* master2.m in Sources */ = {isa = PBXBuildFile; fileRef = FD9D1AFB24E82813007BE6AB /* master2.m */; };
+		FD9D1AFF24E82BCD007BE6AB /* dev1.m in Sources */ = {isa = PBXBuildFile; fileRef = FD9D1AFE24E82BCD007BE6AB /* dev1.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,10 +60,10 @@
 		FD9D1AE424E6DA32007BE6AB /* gitStudentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gitStudentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD9D1AE824E6DA32007BE6AB /* gitStudentUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gitStudentUITests.m; sourceTree = "<group>"; };
 		FD9D1AEA24E6DA32007BE6AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FD9D1AF724E827E9007BE6AB /* master1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = master1.h; sourceTree = "<group>"; };
-		FD9D1AF824E827E9007BE6AB /* master1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = master1.m; sourceTree = "<group>"; };
 		FD9D1AFA24E82813007BE6AB /* master2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = master2.h; sourceTree = "<group>"; };
 		FD9D1AFB24E82813007BE6AB /* master2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = master2.m; sourceTree = "<group>"; };
+		FD9D1AFD24E82BCD007BE6AB /* dev1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dev1.h; sourceTree = "<group>"; };
+		FD9D1AFE24E82BCD007BE6AB /* dev1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dev1.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,10 +171,10 @@
 		FD9D1AF624E827D2007BE6AB /* test */ = {
 			isa = PBXGroup;
 			children = (
-				FD9D1AF724E827E9007BE6AB /* master1.h */,
-				FD9D1AF824E827E9007BE6AB /* master1.m */,
 				FD9D1AFA24E82813007BE6AB /* master2.h */,
 				FD9D1AFB24E82813007BE6AB /* master2.m */,
+				FD9D1AFD24E82BCD007BE6AB /* dev1.h */,
+				FD9D1AFE24E82BCD007BE6AB /* dev1.m */,
 			);
 			path = test;
 			sourceTree = "<group>";
@@ -338,9 +338,9 @@
 				FD9D1AFC24E82813007BE6AB /* master2.m in Sources */,
 				FD9D1AC924E6DA2C007BE6AB /* ViewController.m in Sources */,
 				FD9D1AC324E6DA2C007BE6AB /* AppDelegate.m in Sources */,
-				FD9D1AF924E827E9007BE6AB /* master1.m in Sources */,
 				FD9D1AD424E6DA32007BE6AB /* main.m in Sources */,
 				FD9D1AC624E6DA2C007BE6AB /* SceneDelegate.m in Sources */,
+				FD9D1AFF24E82BCD007BE6AB /* dev1.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

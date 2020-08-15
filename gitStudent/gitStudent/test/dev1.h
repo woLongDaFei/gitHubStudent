@@ -1,5 +1,5 @@
 //
-//  master1.h
+//  dev1.h
 //  gitStudent
 //
 //  Created by 老玩童－赵永斐 on 2020/8/15.
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface master1 : NSObject
+@interface dev1 : NSObject
 
 @end
 
