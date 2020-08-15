@@ -21,9 +21,15 @@
     UIView *view = [[UIView alloc] init];
     [self.view addSubview:view];
     
+
 //    master
     UIView *masterview = [UIView new];
     [self.view addSubview:masterview];
+
+    
+    UIView *view1 = [[UIView alloc] init];
+    [self.view addSubview:view1];
+
 }
 
 
